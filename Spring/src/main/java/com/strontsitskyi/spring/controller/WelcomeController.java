@@ -11,7 +11,7 @@ public class WelcomeController {
 
 	@RequestMapping(method=RequestMethod.GET)
 	public String getName(Model model) {
-		model.addAttribute("message", "Vova");
+		model.addAttribute("user", "Vova");
 		return "welcome";
 	}
 }

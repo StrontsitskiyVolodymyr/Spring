@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome: ${user}</h1>
+	<h1>req: ${id}</h1>
 </body>
 </html>
